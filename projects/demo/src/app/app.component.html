@@ -1,0 +1,13 @@
+<app-github-corner></app-github-corner>
+<app-header></app-header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <app-options #options></app-options>
+        </div>
+        <div class="col-sm-offset-1 col-sm-7">
+            <app-table [loading]="options.data"></app-table>
+        </div>
+    </div>
+</div>
