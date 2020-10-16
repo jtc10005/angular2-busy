@@ -129,7 +129,6 @@ export class BusyDirective implements DoCheck, OnDestroy {
   }
 
   private createBusy(): void {
-
     const busyFactory = this.cfResolver.resolveComponentFactory(BusyComponent);
     this.busyRef = this.vcRef.createComponent(busyFactory, null, this.injector);
 

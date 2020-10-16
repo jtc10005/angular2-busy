@@ -7,3 +7,4 @@ export * from './lib/busy.component';
 export * from './lib/busy.module';
 export * from './lib/interfaces';
 export * from './lib/consts';
+export * from './lib/busy.directive';
